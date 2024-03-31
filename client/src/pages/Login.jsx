@@ -11,7 +11,7 @@ const Login = () => {
   return (
     <form>
       <Box height="100vh" display="flex" pt="10%" justifyContent="center">
-        <Stack container spacing={3} sx={{ maxWidth: "60%", width: "100%" }}>
+        <Stack spacing={3} sx={{ maxWidth: "60%", width: "100%" }}>
           <Typography variant="h6"> Register</Typography>
           <TextField id="email" label="Email" variant="filled" />
           <TextField id="password" label="Password" variant="filled" />
